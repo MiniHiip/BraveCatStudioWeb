@@ -281,3 +281,52 @@ a:hover:not(.buy, .buy-cta, .learn) {
     opacity:100%;
   }
 }
+/* Mantenemos todas las reglas CSS existentes */
+
+/* Nuevos estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px; /* Agregamos un poco de espacio alrededor del cuerpo en dispositivos móviles */
+  }
+
+  .scotch-container {
+    margin-top: 20px; /* Añadimos un margen superior para separar el contenido del borde superior de la ventana */
+    padding: 20px; /* Añadimos un poco de espacio alrededor del contenedor */
+  }
+
+  .text-sphere-container {
+    width: 100%; /* Aseguramos que el contenedor de texto y esferas ocupe todo el ancho disponible */
+    flex-direction: column; /* Cambiamos la dirección del contenedor a columna */
+    gap: 20px; /* Agregamos un espacio entre los elementos */
+    align-items: center; /* Centramos los elementos horizontalmente */
+  }
+
+  .main-container {
+    height: auto; /* Permitimos que el contenedor principal se ajuste al contenido */
+    gap: 20px; /* Agregamos un espacio entre los elementos */
+    justify-content: center; /* Centramos los elementos verticalmente */
+  }
+
+  .sphere {
+    width: 150px; /* Mantenemos el ancho de las esferas */
+    height: 150px; /* Mantenemos la altura de las esferas */
+  }
+
+  /* Mantenemos el tamaño de las fuentes */
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    width: 100%; /* Ajustamos el ancho de los párrafos al 100% */
+  }
+}
